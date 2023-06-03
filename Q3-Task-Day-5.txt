@@ -1,0 +1,19 @@
+Window object:
+* window object represents a tab which containing a DOM document.
+* window object and document object have properties with same name but behaviour is difference(window.open()) it opens a new tab.
+*it is the top most object in BOM(browser object model).
+*its properties like window.innerheight, window.innerlength.
+
+
+Document object:
+* document object is properties of the window object that points to the DOM document loaded in that window.
+* using document object javascript can change, add, delete the HTML elements, attributes, CSS Styles in the page.
+* we can access the document object by using window.object or document object directly (window.document.title (or) document.title)
+* document object and window object having properties with same name but behaviour is difference(document.open())it open the new document
+
+
+Screen:
+* screen is the window property that holds the information of screen.
+* it refers to screen object associated with window object.
+* its used to display screem height, width , color, pixeldepth, etc..
+* similar to the document object, screen can be accessed by window.screen or screen object directly(window.screen.height(or)screen.height)
